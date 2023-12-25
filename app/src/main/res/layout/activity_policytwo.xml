@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".policytwo">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:text="Policy 2"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="We acknowledge that purchasing is one of the most significant impacts we have on the
+environment. Therefore, we will prioritize the procurement of environmentally sustainable
+products and services that minimize our environmental footprint. We will do this by:
+Conducting life cycle assessments of our products and services to identify and select the most
+environmentally sustainable options.
+Prioritizing suppliers with environmentally sustainable practices and certifications, such as ISO
+14001, and ensuring that suppliers are aware of our environmental expectations.
+Considering the use of recycled materials, compostable products, and alternatives to single-use
+products in our purchasing decisions..
+"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Next"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:id="@+id/policythree"/>
+
+
+</LinearLayout>

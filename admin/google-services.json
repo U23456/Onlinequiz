@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "110789573357",
+    "firebase_url": "https://onlinequiz-2da6c-default-rtdb.firebaseio.com",
+    "project_id": "onlinequiz-2da6c",
+    "storage_bucket": "onlinequiz-2da6c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:110789573357:android:6ec5ef3f4d96ac54b9aae4",
+        "android_client_info": {
+          "package_name": "quiz.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "110789573357-oart0j6jbdkkn24qol6bvdi89p6p49c7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA20x7j2ZN0QpTVsS9XkggmLCTrBnqBq4k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "110789573357-oart0j6jbdkkn24qol6bvdi89p6p49c7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".policyfour">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:text="Policy 4"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="We acknowledge that our operations contribute to greenhouse gas emissions and recognize the
+importance of reducing our carbon footprint. Therefore, we will aim to reduce our CO2
+emissions by.Encouraging the use of alternative modes of transport such as cycling, walking, and public
+transport, and promoting carpooling for work-related travel.
+Using energy-efficient equipment and implementing energy-saving measures in our facilities,
+such as LED lighting and motion sensors.
+Measuring our carbon footprint and setting targets for reducing emissions, regularly reporting
+our progress towards those targets
+"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Next"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:id="@+id/policyfive"/>
+
+
+</LinearLayout>

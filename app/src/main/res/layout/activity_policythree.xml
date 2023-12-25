@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".policythree">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:text="Policy 3"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="We recognize that reducing our waste is a critical element in minimizing our environmental
+impact. Therefore, we will focus on reducing our waste by:
+Implementing recycling programs in all our facilities, with a focus on reducing waste to landfill.
+Encouraging the use of electronic documents to reduce paper usage.
+Minimizing packaging and utilizing eco-friendly packaging options where possible.
+"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Next"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:id="@+id/policyfour"/>
+
+
+</LinearLayout>

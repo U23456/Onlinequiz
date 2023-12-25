@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".dashboard">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textStyle="bold"
+    android:textSize="40sp"
+    android:text="POLICY ON COMMITMENT TO SUSTAINABILITY"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                            android:id="@+id/tab1"
+                            android:text="policy one"/>
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/tab2"
+                        android:text="policy two"/>
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/tab3"
+                        android:text="policy three"/>
+            </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tab4"
+                android:text="policy four"/>
+
+        </LinearLayout>
+<!--        <TextView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:textStyle="bold"-->
+<!--            android:textSize="30sp"-->
+<!--            android:text="Introduction"/>-->
+<!--        <TextView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+
+<!--            android:textSize="20sp"-->
+<!--            android:text="As an international research force, our organization recognizes the critical need to commit to-->
+<!--sustainability and minimize our impact on the environment. This policy document outlines our-->
+<!--approach to minimizing environmental impacts from our purchasing, wastage reduction, and-->
+<!--CO2 emissions reduction."/>-->
+<!--        <TextView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:textStyle="bold"-->
+<!--            android:textSize="30sp"-->
+<!--            android:text="Purchasing:"/>-->
+<!--        <TextView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+
+<!--            android:textSize="20sp"-->
+<!--            android:text="We acknowledge that purchasing is one of the most significant impacts we have on the-->
+<!--environment. Therefore, we will prioritize the procurement of environmentally sustainable-->
+<!--products and services that minimize our environmental footprint. We will do this by:-->
+<!--Conducting life cycle assessments of our products and services to identify and select the most-->
+<!--environmentally sustainable options.-->
+<!--Prioritizing suppliers with environmentally sustainable practices and certifications, such as ISO-->
+<!--14001, and ensuring that suppliers are aware of our environmental expectations.-->
+<!--Considering the use of recycled materials, compostable products, and alternatives to single-use-->
+<!--products in our purchasing decisions"/>-->
+
+<!--        <TextView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:textStyle="bold"-->
+<!--            android:textSize="30sp"-->
+<!--            android:text="Wastage Reduction:"/>-->
+<!--        <TextView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+
+<!--            android:textSize="20sp"-->
+<!--            android:text="We recognize that reducing our waste is a critical element in minimizing our environmental-->
+<!--impact. Therefore, we will focus on reducing our waste by:-->
+<!--Implementing recycling programs in all our facilities, with a focus on reducing waste to landfill.-->
+<!--Encouraging the use of electronic documents to reduce paper usage.-->
+<!--Minimizing packaging and utilizing eco-friendly packaging options where possible"/>-->
+<!--        <TextView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:textStyle="bold"-->
+<!--            android:textSize="30sp"-->
+<!--            android:text="CO2 Emissions Reduction:"/>-->
+<!--        <TextView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+
+<!--            android:textSize="20sp"-->
+<!--            android:text="We acknowledge that our operations contribute to greenhouse gas emissions and recognize the-->
+<!--            importance of reducing our carbon footprint. Therefore, we will aim to reduce our CO2-->
+<!--        emissions by: Encouraging the use of alternative modes of transport such as cycling, walking, and public-->
+<!--transport, and promoting carpooling for work-related travel.-->
+<!--Using energy-efficient equipment and implementing energy-saving measures in our facilities,-->
+<!--such as LED lighting and motion sensors.-->
+<!--Measuring our carbon footprint and setting targets for reducing emissions, regularly reporting-->
+<!--our progress towards those targets."/>-->
+<!--        <TextView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:textStyle="bold"-->
+<!--            android:textSize="30sp"-->
+<!--            android:text="Conclusion"/>-->
+<!--        <TextView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+
+<!--            android:textSize="20sp"-->
+<!--            android:text="As an international research force, we understand the importance of sustainability and the role-->
+<!--we play in minimizing our impact on the environment. We are committed to implementing and-->
+<!--continuously improving this policy document to ensure we operate in a manner that is-->
+<!--environmentally sustainable"/>-->
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Quiz"
+            android:layout_gravity="center"
+            android:layout_marginTop="350dp"
+            android:id="@+id/enter"/>
+        
+    </LinearLayout>
+
+
+
+</ScrollView>
